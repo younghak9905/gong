@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+    int n,i,k;char a[10001]={};scanf("%d",&n);
+    a[1]=1;
+    for(i=2;i<=100;i++){
+        if(a[i]==0)for(int j=2;i*j<=10000;j++)a[i*j]=1;
+    }
+    while(n--){
+        scanf("%d",&k);
+        for(i=k/2;a[i]||a[k-i];i--);
+        printf("%d %d\n",i,k-i);
+    }
+}
