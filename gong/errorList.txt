@@ -1,0 +1,16 @@
+node: command not found : 환경 변수가 제대로 설정되지 않음. 환경 변수에는 노드가 설치된 경로가 포함되어야 함
+ReferenceEroor: 모듈 is not defined: 모듈을 require 했는지 확인한다.
+Error : Cannot find module 모듈명 : 해당 모듈을 require 했지만 설치하지 않음 npmi 명령어로 설치
+Error: Can't set headers after they are sent: 요청에 대한 응답을 보낼 때 응답을 두 번 이 상 보냈다. 요청에 대한 응답은 한 번만
+보내야 한다. 응답을 보내는 메서드를 두 번 이상 사용하지 않았는지 체크
+Fatal Error : CALL_AND_RETRY_LIST Allocation failed - JavaScript heap out of memory : 코드를 실행할 때 메모리가 부족하여 스크립트가 정상
+작동하지 않는 경우  node --max-old-space-size=4096 파일명  과 같은 명령어를 사용하여 원하는 열량을 적어 메모리를 늘릴 수 있다.
+
+UnhandledPromiseRejectionWarning: Unhandled promise rejection: 프로미스 사용시 catch 메서드를 붙이지 않으면 발생
+EADDRINUSE 포트 번호: 해당 포트 번호에 이미 다른 프로세스가 연결되어 있다; 그 프로세스를 종료하거나 다른 포트 번호를 사용해야한다.
+EACCES 또는 EPERM: 노드가 작업을 수행하는데 권한이 충분하지 않는다. 
+EJSONPARSE: package.json등의 JSON 파일에 문법 오류가 있을 때 발생
+ECONNEREFUSED: 요청을 보냈으나 연결이 성립하지 않을 때 발생한다. 
+ETARGET:package.json에 기록한 패키지 버전이 존재하지 않을 때 발생하는 오류가
+ETIMEOUT: 요청을 보냈으나 응답이 일정 시간 내에 오지 않을 때 발생한다.
+ENONT: no such file or directory : 지정한 폴더나 파일이 존재하지 않은 경우입니다.

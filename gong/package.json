@@ -1,0 +1,19 @@
+{
+  "name": "npmtest",
+  "version": "0.0.1",
+  "description": "hello package.json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/younghak9905/gong.git"
+  },
+  "author": "leeyeonghak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/younghak9905/gong/issues"
+  },
+  "homepage": "https://github.com/younghak9905/gong#readme"
+}
